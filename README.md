@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hello there
 
-<!--
-**marchitoos/marchitoos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+#!/usr/bin/python
 
-Here are some ideas to get you started:
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Student:
+  def __init__(self):
+    self.name = "Marcos"
+    self.nickname = "Marchitos"
+    self.pronums = ["he", "him"]
+    self.languages_spoken = ["pt_BR", "en_US"]
+
+  def hello_there(self):
+    print("I'm glad to see someone here! I hope that you find my page interesting or something like that!")
+```
